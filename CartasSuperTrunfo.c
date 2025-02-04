@@ -16,6 +16,9 @@ int main() {
     float area;
     float PIB;
     int numeroturistico;
+    float densidade;
+    float PIBpercapta;
+    
 // Cadastro das Cartas:
 // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
 // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
@@ -47,5 +50,21 @@ int main() {
     printf("PIB:%.2f reais\n", PIB);    
     printf("Número de Pontos Turísticos: %'d",numeroturistico);
 
+    //Nível Aventureiro
+    //Densidade Populacional: População dividida pela área da cidade.
+    //PIB per Capita: PIB total dividido pela população.
+
+    printf("Novo Commit: Nível Aventureiro: /n");
+    PIBpercapta=(PIB \ populacao);
+    printf("O PIB per capta é:%2.f");
+
+    densidade=(populacao \ area);
+    printf("A Densidade populacional é: %2.f");
+
     return 0;
+     
+
+    
+
+
 }
